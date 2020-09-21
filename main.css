@@ -8,4 +8,7 @@ body{
 .colorBtn{
     padding: 0.25rem 0.5rem;
     border: 3px solid #ffeeff;
+    border-radius: 7px;
+    color: #fefeff;
+    background: rgba(0,0,0,)
 }
