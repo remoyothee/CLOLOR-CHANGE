@@ -5,6 +5,8 @@ const colors= ['yellow','red','green','#3b59'];
 
 colorBtn.addEventListener('click',changeColor);
 function changeColor (){
-    bodyBcg.style.backgroundColor = colors[2];
+// bodyBcg.style.backgroundColor = colors[2];
+let random = Math.floor(Math.random()*colors.length)
+bodyBcg.style.backgroundColor =colors[random];
 
 }
